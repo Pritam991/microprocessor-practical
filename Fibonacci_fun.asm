@@ -1,3 +1,6 @@
+// Fibonacci sequence
+
+
 LXI H, 2060H; Store memory location 2060H in HL pair(the location contains N).
 
 CALL FIB; The Subroutine FIB is going to be executed. 
