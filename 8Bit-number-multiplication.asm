@@ -1,0 +1,12 @@
+MVI A, 00H
+LXI H, 2000H
+
+MOV B, M
+INX H 
+MOV C, M 
+
+LOOP: ADD B 
+      DCR C 
+      JNZ LOOP 
+      STA 2002H
+      HLT
