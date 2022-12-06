@@ -1,0 +1,7 @@
+MVI A, 02H
+MVI B, 03H
+
+ADD B 
+
+STA F200H
+HLT
